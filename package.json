@@ -1,0 +1,26 @@
+{
+  "name": "architectural-clash",
+  "version": "0.0.1",
+  "description": "Architectural Clash Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architectural-clash/architectural-clash.github.io.git"
+  },
+  "keywords": [
+    "Architectural",
+    "Clash"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/architectural-clash/architectural-clash.github.io/issues"
+  },
+  "homepage": "https://github.com/architectural-clash/architectural-clash.github.io#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

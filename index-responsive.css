@@ -1,0 +1,260 @@
+
+@media screen (min-width: 1600px) {
+
+}
+
+@media screen
+  and (max-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi)
+{
+  .footer {
+    padding: 80px 5vw 120px;
+  }
+  .who-we-are {
+    padding: 80px 5vw 120px;
+  }
+  .more-info {
+    padding: 80px 5vw 120px;
+  }
+  .resources {
+    padding: 80px 5vw 120px;
+  }
+  .use-cases {
+    padding: 80px 5vw 120px;
+  }
+  .steps {
+    padding: 80px 5vw 120px;
+  }
+  .about {
+    padding: 80px 15vw 120px;
+  }
+  .hero {
+    padding: 32px 5vw 120px;
+  }
+}
+
+@media screen
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi)
+{
+  .footer {
+    padding: 64px 32px 80px;
+  }
+  .who-we-are {
+    padding: 64px 32px 80px;
+  }
+  .more-info {
+    padding: 64px 32px 80px;
+  }
+  .resources {
+    padding: 64px 32px 80px;
+  }
+  .use-cases {
+    padding: 64px 32px 80px;
+  }
+  .steps {
+    padding: 64px 32px 80px;
+  }
+  .about {
+    padding: 64px 32px 80px;
+  }
+  .hero {
+    padding: 32px 32px 80px;
+  }
+  p, a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .step__icon {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  .step__title {
+    margin-bottom: 8px;
+  }
+  .step {
+    padding: 24px 16px 32px;
+  }
+  .steps__container {
+    grid-column-gap: 12px;
+  }
+  .use-cases__container {
+    grid-column-gap: 12px;
+  }
+  .resources__container {
+    grid-column-gap: 12px;
+  }
+  .who-we-are__container {
+    grid-column-gap: 12px;
+  }
+  .step__icon img {
+    width: 48px;
+  }
+  .user-badge__img img {
+    width: 72px;
+  }
+
+}
+
+@media screen
+  and (max-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi)
+{
+  .footer {
+    padding: 40px 16px 72px;
+  }
+  .who-we-are {
+    padding: 40px 16px 72px;
+  }
+  .more-info {
+    padding: 40px 16px 72px;
+  }
+  .resources {
+    padding: 40px 16px 72px;
+  }
+  .use-cases {
+    padding: 40px 16px 72px;
+  }
+  .steps {
+    padding: 40px 16px 72px;
+  }
+  .about {
+    padding: 40px 24px 72px;
+  }
+  .hero {
+    padding: 32px 16px 72px;
+  }
+  .steps__container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+  }
+  .use-cases__container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+  }
+  .resources__container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+  }
+  .who-we-are__container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+  }
+  p, a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .step__icon img {
+    width: 48px;
+  }
+  .step__icon {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  .user-badge__img {
+    margin: 0 0 8px 0;
+  }
+  .user-badge__img img {
+    width: 72px;
+  }
+  .use-case__button {
+    align-self: auto;
+  }
+  .user-badge {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .user-badge__info {
+    text-align: center;
+  }
+  .social-links {
+    justify-content: space-between;
+  }
+  .surfer__body {
+    margin: 0;
+    text-align: center;
+  }
+  .hero__logo img {
+    width:200px;
+  }
+  .button {
+    min-width: 280px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__links {
+    text-align: center;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__link {
+    line-height: 32px;
+  }
+  .chip {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 8px;
+  }
+  .resource__title {
+    margin-bottom: 0;
+  }
+  .footer__logo img {
+    margin-bottom: 32px;
+  }
+  .footer__credits {
+    text-align: center;
+  }
+  .head {
+    display: none;
+  }
+  .navbar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: #6039E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-mobile__logo img {
+    height: 48px;
+    margin-left: 16px;
+  }
+  .navbar-mobile__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+  }
+  .use-case__body {
+    text-align: center;
+  }
+  .resource {
+    padding: 24px 16px 32px;
+  }
+
+}
