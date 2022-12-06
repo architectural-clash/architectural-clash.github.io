@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/architectural-clash/architectural-clash.github.io#readme",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.2"
   }
 }
